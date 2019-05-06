@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
-* Студент: [den4ik](https://up.htmlacademy.ru/htmlcss/25/user/311349).
-* Наставник: `Неизвестно`.
+* Студент: [Денис Бахарь](https://up.htmlacademy.ru/htmlcss/25/user/311349).
+* Наставник: [Руслан Турсунов](https://htmlacademy.ru/profile/id144106).
 
 ---
 
