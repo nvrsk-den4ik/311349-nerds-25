@@ -13,7 +13,7 @@
 			<ul class="site-navigation">
 				<li><a href="#">Студия</a></li>
 				<li><a href="#">Клиенты</a></li>
-				<li><a href="#">Магазин</a></li>
+				<li><a href="#" class="current">Магазин</a></li>
 				<li><a href="#">Контакты</a></li>
 			</ul>
 			<div class="main-basket">
@@ -25,24 +25,68 @@
 	<main>
 		<aside class="sidebar">
 			<div class="main-grid">
-				<h3>СЕТКА:</h3>
-				<ul class="grid">
-					<li>Адаптивная</li>
-					<li>Фиксированная</li>
-					<li>Резиновая</li>
-				</ul>
+				<form class="filter" method="get" action="https://echo.htmlacademy.ru">
+					<fieldset>
+						<legend>СЕТКА:</legend>
+						<ul class="grid">
+							<li>
+								<label>
+									<input type="radio" name="main-grid" value="adaptive" >
+									Адаптивная
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" name="main-grid" value="fixed">
+									Фиксированная
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" name="main-grid" value="rubber">
+									Резиновая
+								</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset>
+						<legend>ОСОБЕННОСТИ:</legend>
+						<ul class="features">
+							<li>
+								<label>
+									<input type="checkbox" name="slaider" checked>
+									Слайдер
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="features-block">
+									Блок преимуществ
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="news">
+									Новости
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="gallery">
+									Галерея
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="features-basket">
+									Корзина
+								</label>
+							</li>
+						</ul>
+					</fieldset>
+					<button class="submit">Показать</button>
+				</form>
 			</div>
-			<div class="main-features">
-				<h3>ОСОБЕННОСТИ:</h3>
-				<ul class="features">
-					<li>Слайдер</li>
-					<li>Блок преимуществ</li>
-					<li>Новости</li>
-					<li>Галерея</li>
-					<li>Корзина</li>
-				</ul>
-			</div>
-			<button class="btn-show">Показать</button>
 		</aside>
 		<section class="main-catalog">
 			<ul class="catalog-list">
@@ -69,14 +113,30 @@
 		<footer class="main-footer">
 			<div class="footer-social">
 				<ul>
-					<li><a class="social-button" href="#">Вконтакте</a></li>
-					<li><a class="social-button" href="#">Фейсбук</a></li>
-					<li><a class="social-button" href="#">Инстаграм</a></li>
+					<li><a class="social-button" aria-label="Web-студия Nerds в Вконтакте" href="#">Вконтакте</a></li>
+					<li><a class="social-button" aria-label="Web-студия Nerds на Фейсбуке" href="#">Фейсбук</a></li>
+					<li><a class="social-button" aria-label="Web-студия Nerds в Инстаграме" href="#">Инстаграм</a></li>
 				</ul>
 			</div>
 			<b>Давайте дружить, это выгодно!</b>
 			<p>Скидка 10% для друзей из социальных сетей.</p>
 		</footer>
+		<section class="modal modal-map-contact">
+			<h2>Напишите нам</h2>
+			<form class="map-contact-form" action="https://echo.htmlacademy.ru" method="post">
+				<p class="map-contact-name">Ваше имя:
+					<input type="text" name="name" value="" placeholder="Имя Фамилия">
+				</p>
+				<p class="map-contact-name">Ваш e-mail:
+					<input type="email" name="email" value="" placeholder="email@example.com">
+				</p>
+				<p class="map-contact-name">Текст письма:
+					<input type="text" name="message" value="" placeholder="В свободной форме">
+				</p>
+				<button class="button" type="submit">Отправить</button>
+			</form>
+			<span class="modal-close" aria-label="Закрыть форму">x</span>
+		</section>
 	</main>
 </body>
 </html>
