@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
-	<title>Web-студии Nerds - Каталог</title>
+	<title>Web-студия Nerds - Каталог</title>
 </head>
 <body>
 	<header class="main-header">
@@ -13,7 +13,7 @@
 			<ul class="site-navigation">
 				<li><a href="#">Студия</a></li>
 				<li><a href="#">Клиенты</a></li>
-				<li><a href="#" class="current">Магазин</a></li>
+				<li><a class="current">Магазин</a></li>
 				<li><a href="#">Контакты</a></li>
 			</ul>
 			<div class="main-basket">
@@ -31,7 +31,7 @@
 						<ul class="grid">
 							<li>
 								<label>
-									<input type="radio" name="main-grid" value="adaptive" >
+									<input type="radio" name="main-grid" value="adaptive" checked>
 									Адаптивная
 								</label>
 							</li>
@@ -54,31 +54,31 @@
 						<ul class="features">
 							<li>
 								<label>
-									<input type="checkbox" name="slaider" checked>
+									<input type="checkbox" name="features" value="carousel" checked>
 									Слайдер
 								</label>
 							</li>
 							<li>
 								<label>
-									<input type="checkbox" name="features-block">
+									<input type="checkbox" name="features" value="features-block">
 									Блок преимуществ
 								</label>
 							</li>
 							<li>
 								<label>
-									<input type="checkbox" name="news">
+									<input type="checkbox" name="features" value="news" checked>
 									Новости
 								</label>
 							</li>
 							<li>
 								<label>
-									<input type="checkbox" name="gallery">
+									<input type="checkbox" name="features" value="gallery">
 									Галерея
 								</label>
 							</li>
 							<li>
 								<label>
-									<input type="checkbox" name="features-basket">
+									<input type="checkbox" name="features" value="features-basket">
 									Корзина
 								</label>
 							</li>
@@ -89,6 +89,7 @@
 			</div>
 		</aside>
 		<section class="main-catalog">
+			<h2 class="visually-hidden">Каталог шаблонов</h2>
 			<ul class="catalog-list">
 				<li class="catalog-item">
 					<img src="img/img-sedona.jpg" width="360" height="576" alt="Шаблон Седона">
@@ -113,9 +114,9 @@
 		<footer class="main-footer">
 			<div class="footer-social">
 				<ul>
-					<li><a class="social-button" aria-label="Web-студия Nerds в Вконтакте" href="#">Вконтакте</a></li>
-					<li><a class="social-button" aria-label="Web-студия Nerds на Фейсбуке" href="#">Фейсбук</a></li>
-					<li><a class="social-button" aria-label="Web-студия Nerds в Инстаграме" href="#">Инстаграм</a></li>
+					<li><a class="social-button" aria-label="Web-студия Nerds в Вконтакте" href="#" target="_blank">Вконтакте</a></li>
+					<li><a class="social-button" aria-label="Web-студия Nerds на Фейсбуке" href="#" target="_blank">Фейсбук</a></li>
+					<li><a class="social-button" aria-label="Web-студия Nerds в Инстаграме" href="#" target="_blank">Инстаграм</a></li>
 				</ul>
 			</div>
 			<b>Давайте дружить, это выгодно!</b>
@@ -124,18 +125,18 @@
 		<section class="modal modal-map-contact">
 			<h2>Напишите нам</h2>
 			<form class="map-contact-form" action="https://echo.htmlacademy.ru" method="post">
-				<p class="map-contact-name">Ваше имя:
-					<input type="text" name="name" value="" placeholder="Имя Фамилия">
+				<p class="map-contact-name"><label for="name">Ваше имя:</label>
+					<input type="text" name="name" id="name" value="" placeholder="Имя Фамилия">
 				</p>
-				<p class="map-contact-name">Ваш e-mail:
-					<input type="email" name="email" value="" placeholder="email@example.com">
+				<p class="map-contact-name"><label for="email">Ваш e-mail:</label>
+					<input type="email" name="email" id="email" value="" placeholder="email@example.com">
 				</p>
-				<p class="map-contact-name">Текст письма:
-					<input type="text" name="message" value="" placeholder="В свободной форме">
+				<p class="map-contact-name"><label for="message">Текст письма:</label>
+					<input type="text" name="message" id="message" value="" placeholder="В свободной форме">
 				</p>
-				<button class="button" type="submit">Отправить</button>
+				<button class="button" type="button">Отправить</button>
 			</form>
-			<span class="modal-close" aria-label="Закрыть форму">x</span>
+			<span class="modal-close">x</span>
 		</section>
 	</main>
 </body>
