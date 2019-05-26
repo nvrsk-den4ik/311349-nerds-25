@@ -3,6 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>Web-студия Nerds - Каталог</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<header class="main-header">
@@ -20,7 +23,7 @@
 				<a href="#">Корзина</a>
 			</div>
 		</nav>
-		<h1>Магазин готовых шаблонов</h1>
+		<h1 class="header-title">Магазин готовых шаблонов</h1>
 	</header>
 	<main>
 		<aside class="sidebar">
@@ -53,32 +56,32 @@
 						<legend>ОСОБЕННОСТИ:</legend>
 						<ul class="features">
 							<li>
-								<label>
+								<label class="filter-checkbox">
 									<input type="checkbox" name="features" value="carousel" checked>
 									Слайдер
 								</label>
 							</li>
 							<li>
-								<label>
+								<label class="filter-checkbox">
 									<input type="checkbox" name="features" value="features-block">
 									Блок преимуществ
 								</label>
 							</li>
 							<li>
-								<label>
+								<label class="filter-checkbox">
 									<input type="checkbox" name="features" value="news" checked>
 									Новости
 								</label>
 							</li>
 							<li>
-								<label>
+								<label class="filter-checkbox">
 									<input type="checkbox" name="features" value="gallery">
 									Галерея
 								</label>
 							</li>
 							<li>
-								<label>
-									<input type="checkbox" name="features" value="features-basket">
+								<label class="filter-checkbox">
+									<input type="checkbox" name="features" value="features-basket" disabled>
 									Корзина
 								</label>
 							</li>
