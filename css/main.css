@@ -1,4 +1,6 @@
 
+html { box-sizing:border-box;}
+
 body {
 	margin: 0;
 
@@ -215,16 +217,16 @@ a.orange:active {
 	text-transform:uppercase;
 }
 
-.catalog-info h3 a {
+.catalog-title {
 	color: #000000;
 }
 
-.catalog-info h3 a:hover,
-.catalog-info h3 a:focus {
+a.catalog-title:hover,
+a.catalog-title:focus {
 	color: #fb565a;
 }
 
-.catalog-info h3 a:active {
+a.catalog-title:active {
 	color: #c9c9c9;
 }
 
@@ -275,6 +277,17 @@ a.button:active {
 	line-height: 20px;
 }
 
+.filter-radio {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+}
+.filter-checkbox {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+}
+
 .filter-checkbox:hover,
 .filter-checkbox:focus  {
 	color: #4d4d4d;
@@ -286,6 +299,31 @@ a.button:active {
 	opacity: 0.3;
 }
 
+.submit {
+	width: 260px;
+	height:50px;
+font-size: 16px;
+line-height: 18px;
+font-weight: 500;
+color: #000000;
+background-color: #eeeeee;
+text-transform: uppercase;
+border: 0;
+border-radius: 3px;
+}
+
+.submit:hover,
+.submit:focus {
+	color: #000000;
+	background-color: #dfdfdf;
+}
+
+.submit:active {
+color: #959595;
+background-color: #d5d5d5;
+box-shadow: 0 -3px 0 #bfbfbf;
+outline: none;
+}
 
 /* End Catalog */
 
@@ -306,7 +344,7 @@ a.button:active {
 	height: 80px;
 	border-radius: 50%;
 	background-color: #e1e1e1;
-	
+
 }
 
 .vkontakte {
@@ -314,7 +352,7 @@ a.button:active {
 	background-image: url(../img/vk-icon.svg); 
 	background-position: center;
 	background-repeat: no-repeat;
-	
+
 }
 
 a.vkontakte:hover,
