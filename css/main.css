@@ -528,11 +528,12 @@ a.catalog-title:active {
 	
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content:left;
 	list-style: none;
 	margin: 0;
 	padding:0;
-	width: 260px;
+	width: 300px;
+	margin: -10px;
 }
 .social-button {
 	display: flex;
@@ -542,6 +543,8 @@ a.catalog-title:active {
 	border-radius: 50%;
 	height: 78px;
 	width: 78px;
+	margin: 10px;
+
 }
 .social-button:hover,
 .social-button:focus {
