@@ -3,7 +3,6 @@ html { box-sizing:border-box;}
 
 body {
 	margin: 0;
-
 	font-family: 'Roboto', Arial, sans-serif;
 	font-size: 16px;
 	line-height: 24px;
@@ -228,6 +227,7 @@ background-color: #ffffff;
 	padding-left: 40px;
 	padding-right: 40px;
 	border-radius: 3px;
+	margin: 0;
 }
 
 .red {
@@ -550,7 +550,6 @@ a.button:active {
 }
 .social-button:active svg {
 opacity: 0.3;
-
 }
 
 .discount
