@@ -19,18 +19,18 @@
 				<li><a class="current">Магазин</a></li>
 				<li><a href="#">Контакты</a></li>
 			</ul>
-			<div class="main-basket">
-				<a href="#">Корзина</a>
-			</div>
+			<ul class="main-basket">
+				<li><a href="#">Корзина</a></li>
+			</ul>
 		</nav>
-		<div class="title-containe">
+		<div class="title-container">
 			<h1 class="header-title container">Магазин готовых шаблонов</h1>
 			<div>
 			</header>
 			<main>
 				<aside class="sidebar container">
-					<div class="main-grid">
-						<form class="filter" method="get" action="https://echo.htmlacademy.ru">
+					<form class="filter" method="get" action="https://echo.htmlacademy.ru">
+						<h2 class="visually-hidden">Фильтр товаров</h2>
 							<fieldset>
 								<legend>СЕТКА:</legend>
 								<ul class="grid">
@@ -54,8 +54,6 @@
 									</li>
 								</ul>
 							</fieldset>
-							</div>
-							<div class="features-list">
 							<fieldset>
 								<legend>ОСОБЕННОСТИ:</legend>
 								<ul class="features">
@@ -91,10 +89,9 @@
 									</li>
 								</ul>
 							</fieldset>
-							<div>
-							<button class="submit">Показать</button>
+							<button type="submit" class="button button-filter button-gray">Показать</button>
 						</form>
-				</aside>
+				
 				<section class="main-catalog">
 					<h2 class="visually-hidden">Каталог шаблонов</h2>
 					<ul class="catalog-list">
@@ -146,15 +143,18 @@
 								<a href="#" class="button">9 900 руб.</a>
 							</div>
 						</li>	
-					</ul>	
+					</ul>
 					<ul class="pagination">
-            <li><a class="page-buttons-previous btn" href="#">Предыдущая</a></li>
-            <li><a class="page-buttons-number btn  page-buttons-number-current">1</a></li>
-            <li><a class="page-buttons-number btn" href="#">2</a></li>
-            <li><a class="page-buttons-number btn" href="#">3</a></li>
-            <li><a class="page-buttons-next btn" href="#">Следующая</a></li>
+            <li><a class="page-buttons-previous button button-gray" href="#">Предыдущая</a></li>
+            <li><a class="page-buttons-number button button-gray  page-buttons-number-current">1</a></li>
+            <li><a class="page-buttons-number button button-gray" href="#">2</a></li>
+            <li><a class="page-buttons-number button button-gray" href="#">3</a></li>
+            <li><a class="page-buttons-next button button-gray" href="#">Следующая</a></li>
           </ul>
-				</section>
+					</section>	
+									
+				</aside>
+
 <section class="main-map">
 			<h2 class="visually-hidden">Как до нас добраться</h2>
 			<div class="map-inner">
