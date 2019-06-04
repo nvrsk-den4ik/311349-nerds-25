@@ -312,14 +312,12 @@ a.orange:active {
 }
 
 .filter {
-	display: flex;
-	flex-direction: column;
 	width: 260px;
 	padding-top: 13px;
 }
 .main-catalog {
 	width: 760px;
-margin-bottom: 12px;
+	margin-bottom: 12px;
 }
 
 .catalog-list {
