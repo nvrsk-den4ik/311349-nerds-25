@@ -582,3 +582,34 @@ opacity: 0.3;
 .modal {
 	display: none;
 }
+.modal-map-contact {
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, .3);
+}
+.modal-message {
+  position: relative;
+  width: 960px;
+  height: 590px;
+  padding: 50px 100px 80px;
+  color:#000000;
+  background-color: #ffffff;
+}
+.modal-message form {
+	display: flex;
+}
+.modal-message h2 {
+  display: block;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  padding-left: 0;
+  margin-bottom: 47px
+}
