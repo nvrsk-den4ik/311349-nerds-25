@@ -522,11 +522,10 @@ a.catalog-title:active {
 	
 }
 
-.main-footer ul {
-	
+.main-footer ul {	
 	display: flex;
 	flex-wrap: wrap;
-	justify-content:left;
+	justify-content:space-between;
 	list-style: none;
 	margin: 0;
 	padding:0;
@@ -542,7 +541,6 @@ a.catalog-title:active {
 	height: 78px;
 	width: 78px;
 	margin: 10px;
-
 }
 .social-button:hover,
 .social-button:focus {
