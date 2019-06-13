@@ -5,7 +5,7 @@
 	<title>Web-студия Nerds</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/min.main.css">
 </head>
 <body>
 	<header class="main-header">
@@ -174,16 +174,16 @@
 					<h2>Напишите нам</h2>
 					<form action="https://echo.htmlacademy.ru" method="post">
 						<fieldset class="modal-fieldset">
-							<label class="modal-contact-label" for="name">Ваше имя:</label>
-							<input class="input" type="text" name="name" id="name" placeholder="Имя Фамилия">
+							<label class="modal-contact-label" for="message-name">Ваше имя:</label>
+							<input class="input" type="text" name="name" id="message-name" placeholder="Имя Фамилия">
 						</fieldset>
 						<fieldset class="modal-fieldset">
-							<label class="modal-contact-label" for="email">Ваш e-mail:</label>
-							<input class="input" type="email" name="email" id="email" value="" placeholder="email@example.com">
+							<label class="modal-contact-label" for="message-email">Ваш e-mail:</label>
+							<input class="input" type="email" name="email" id="message-email" value="" placeholder="email@example.com">
 						</fieldset>
 						<fieldset class="modal-fieldset">
-							<label class="modal-label-message" for="message">Текст письма:</label>
-							<textarea id="message" placeholder="В свободной форме"></textarea>
+							<label class="modal-label-message" for="message-text">Текст письма:</label>
+							<textarea id="message-text" placeholder="В свободной форме"></textarea>
 						</fieldset>
 						<button class="button modal-button" type="submit">Отправить</button>
 					</form>
@@ -191,5 +191,6 @@
 				</section>
 			</div>
 		</main>
+		<script src="js/min.scripts.js"></script>
 	</body>
 	</html>
