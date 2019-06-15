@@ -6,7 +6,7 @@ body {
 	padding: 0;
 	min-width: 1200px;
 
-	font-family: 'Roboto', Arial, sans-serif;
+	font-family: "Roboto", Arial, sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
@@ -45,7 +45,6 @@ img { max-width: 100% ;}
 	line-height: 30px;
 	text-transform: uppercase;
 	background-color: #eeeeee;
-	
 }
 .main-navigation {
 	display: -webkit-box;
@@ -227,11 +226,9 @@ img { max-width: 100% ;}
 	bottom: 96px;
 	left: 0;
 
-	display: -webkit-box;
-
-	display: -ms-flexbox;
-
 	display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
