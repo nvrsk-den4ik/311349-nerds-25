@@ -46,7 +46,7 @@ form.addEventListener("submit", function (evt) {
 		feedbackModal.classList.add("modal-error");
 	} else { 
 		if (isStorageSupport){
-			localStorage.setItem("message-name", login.value);
+			localStorage.setItem("message-name", messageName.value);
 			localStorage.setItem("message-email", messageEmail.value);
 		}
 	}
