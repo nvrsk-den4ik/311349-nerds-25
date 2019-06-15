@@ -817,7 +817,7 @@ a.orange:active {
 	z-index: 1;
 	
 	width: 20px;
-	height: 20px;
+	height: 23px;
 }
 
 .filled-stroke {
@@ -837,7 +837,7 @@ a.orange:active {
 	left: 140px;
 	
 	width: 20px;
-	height: 20px;
+	height: 23px;
 }
 .filter-cost-box {
 	display: -webkit-box;
