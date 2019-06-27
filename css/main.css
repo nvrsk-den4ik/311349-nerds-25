@@ -735,6 +735,7 @@ a.orange:active {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	color: rgba(40, 49, 54, 1);
 }
 .filter-option {
 	position: relative;
@@ -771,10 +772,10 @@ a.orange:active {
 	background-image: url(../img/radio-on.svg);
 	opacity: 1;
 }
-input[type="radio"]:disabled +label {
+input[type="radio"]:disabled +.grid-list-label {
 	opacity: .3;
 }
-input[type="checkbox"]:disabled +label {
+input[type="checkbox"]:disabled +.features-list-label {
 	opacity: .3;
 }
 .filter-input-checkbox:disabled +label::before,
