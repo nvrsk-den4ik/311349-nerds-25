@@ -772,10 +772,10 @@ a.orange:active {
 	background-image: url(../img/radio-on.svg);
 	opacity: 1;
 }
-input[type="radio"]:disabled +.grid-list-label {
+.grid-list input:disabled +.grid-list-label {
 	opacity: .3;
 }
-input[type="checkbox"]:disabled +.features-list-label {
+.features-list input:disabled +.features-list-label {
 	opacity: .3;
 }
 .filter-input-checkbox:disabled +label::before,
